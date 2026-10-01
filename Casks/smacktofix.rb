@@ -11,5 +11,12 @@ cask "smacktofix" do
 
   app "SmackToFix.app"
 
+  # The build is ad-hoc signed. Homebrew copies the download quarantine
+  # flag onto the app, and macOS then refuses to open it.
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/SmackToFix.app"]
+  end
+
   zap trash: "~/Library/Preferences/com.smacktofix.SmackToFix.plist"
 end
