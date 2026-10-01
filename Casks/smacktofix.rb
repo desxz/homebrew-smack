@@ -1,6 +1,6 @@
 cask "smacktofix" do
-  version "1.0.3"
-  sha256 "b82320c6eb3cffe119812930027e9bd0ad0c4dca9dd78e92e59b74f2cefd884a"
+  version "1.0.4"
+  sha256 "18547f01856fcb8ac4d2a976f2e3d7c29d78cb8d9b51125c087571f5cee01f9f"
 
   url "https://github.com/desxz/sMACk/releases/download/v#{version}/SmackToFix.zip"
   name "sMACk"
