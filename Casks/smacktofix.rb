@@ -7,7 +7,7 @@ cask "smacktofix" do
   desc "Percussive maintenance for Mac"
   homepage "https://github.com/desxz/SmackToFix"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "SmackToFix.app"
 
