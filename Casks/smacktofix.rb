@@ -2,10 +2,10 @@ cask "smacktofix" do
   version "1.0.3"
   sha256 "b82320c6eb3cffe119812930027e9bd0ad0c4dca9dd78e92e59b74f2cefd884a"
 
-  url "https://github.com/desxz/SmackToFix/releases/download/v#{version}/SmackToFix.zip"
+  url "https://github.com/desxz/sMACk/releases/download/v#{version}/SmackToFix.zip"
   name "sMACk"
   desc "Percussive maintenance for Mac. The Mac is already in the word."
-  homepage "https://github.com/desxz/SmackToFix"
+  homepage "https://github.com/desxz/sMACk"
 
   depends_on macos: :sonoma
 
