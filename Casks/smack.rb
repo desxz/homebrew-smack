@@ -1,4 +1,4 @@
-cask "smacktofix" do
+cask "smack" do
   version "1.0.4"
   sha256 "18547f01856fcb8ac4d2a976f2e3d7c29d78cb8d9b51125c087571f5cee01f9f"
 
